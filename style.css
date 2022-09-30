@@ -1,0 +1,86 @@
+body {
+  background-color: #203541;
+  color: rgb(45, 29, 29);
+  text-align: center;
+  background-image: url("../photo/bagr.jpeg");
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-size: 5rem;
+  color: rgb(156, 164, 122);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.timer, .errors,
+.accuracy {
+  background-color: #186e6e;
+  height: 70px;
+  width: 100px;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: rgb(5, 19, 21) 5px 8px 5px;
+}
+
+
+.header_text {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.curr_time, .curr_errors,
+.curr_accuracy{
+  font-size: 2.75rem;
+}
+
+
+.quote {
+  background-color: #a6aa83;
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 25px;
+  box-shadow: black 5px 8px 5px;
+}
+
+
+.input_area {
+  background-color: #165150;
+  height: 80px;
+  width: 40%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: black 5px 8px 5px;
+}
+
+.incorrect_char {
+  color: rgb(187, 41, 41);
+  text-decoration: underline;
+}
+
+.correct_char {
+  color: darkgreen;
+}
+
+.restart_btn {
+ display: none;
+  background-color: #58a3a1;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 40px;
+  box-shadow: rgb(22, 21, 21) 5px 8px 5px;
+}
